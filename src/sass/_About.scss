@@ -1,4 +1,52 @@
 .about {
   flex-basis: 100vh;
   background-color: #e3f2fd;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  &__image {
+    max-height: 33vh;
+
+    justify-self: center;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+  &__title {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    text-align: center;
+  }
+  &__home {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__school {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__code {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__guitar {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  & .fas {
+    font-size: 6rem;
+  }
 }

@@ -1,3 +1,40 @@
 .skill {
   flex-basis: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 5vw;
+  &__html {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__css-sass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__javascript {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__react {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__nodeJS {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  & .my-2 {
+    flex-basis: 80%;
+  }
+
+  & .fab {
+    font-size: 5rem;
+  }
 }

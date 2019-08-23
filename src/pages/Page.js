@@ -7,19 +7,19 @@ import Contact from "./Contact";
 const Page = () => {
   return (
     <div className="page">
-      <header className="header">
+      <header className="header" id="home">
         <Header />
       </header>
-      <section className="about">
+      <section className="about" id="about">
         <About />
       </section>
-      <section className="skill">
+      <section className="skill" id="skill">
         <Skill />
       </section>
-      <section className="project">
+      <section className="project" id="project">
         <Project />
       </section>
-      <section className="contact">
+      <section className="contact" id="contact">
         <Contact />
       </section>
     </div>

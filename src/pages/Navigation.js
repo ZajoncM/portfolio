@@ -24,7 +24,11 @@ class Navigation extends React.Component {
       collapse: !this.state.collapse
     });
   }
-  handleScroll(e) {}
+  handleScroll(e) {
+    const element = document.getElementById(e);
+    console.log(element);
+    element.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 
   render() {
     return (
@@ -47,21 +51,35 @@ class Navigation extends React.Component {
             <MDBCollapse isOpen={this.state.collapse} navbar>
               <MDBNavbarNav left>
                 <MDBNavItem>
-                  <MDBNavLink to="#" onClick={() => this.handleScroll(0)}>
+                  <MDBNavLink to="#" onClick={() => this.handleScroll("home")}>
                     Home
                   </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#">About</MDBNavLink>
+                  <MDBNavLink to="#" onClick={() => this.handleScroll("about")}>
+                    About
+                  </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#">Skill</MDBNavLink>
+                  <MDBNavLink to="#" onClick={() => this.handleScroll("skill")}>
+                    Skill
+                  </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#">Project</MDBNavLink>
+                  <MDBNavLink
+                    to="#"
+                    onClick={() => this.handleScroll("project")}
+                  >
+                    Project
+                  </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
-                  <MDBNavLink to="#">Contact</MDBNavLink>
+                  <MDBNavLink
+                    to="#"
+                    onClick={() => this.handleScroll("contact")}
+                  >
+                    Contact
+                  </MDBNavLink>
                 </MDBNavItem>
               </MDBNavbarNav>
             </MDBCollapse>
