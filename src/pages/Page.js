@@ -19,7 +19,7 @@ const Page = () => {
       <section className="project">
         <Project />
       </section>
-      <section className="Contact">
+      <section className="contact">
         <Contact />
       </section>
     </div>

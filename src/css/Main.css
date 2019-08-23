@@ -8,8 +8,23 @@
           flex-direction: column;
 }
 
-.App {
-  background-color: black;
-  height: 200vh;
+.header {
+  height: 100vh;
+}
+
+.about {
+  height: 100vh;
+}
+
+.skill {
+  height: 100vh;
+}
+
+.project {
+  height: 100vh;
+}
+
+.contact {
+  height: 100vh;
 }
 /*# sourceMappingURL=Main.css.map */

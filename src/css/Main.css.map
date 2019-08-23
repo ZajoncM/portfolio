@@ -1,11 +1,16 @@
 {
     "version": 3,
-    "mappings": "AEAA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AFCD,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,KAAK;EACvB,MAAM,EAAE,KAAK;CACd",
+    "mappings": "AEAA,AAAA,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AEHD,AAAA,OAAO,CAAC;EACN,MAAM,EAAE,KAAK;CACd;;ACFD,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,KAAK;CACd;;ACFD,AAAA,MAAM,CAAC;EACL,MAAM,EAAE,KAAK;CACd;;ACFD,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;CACd;;ACFD,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;CACd",
     "sources": [
         "../sass/Main.scss",
         "../sass/_Normalize.scss",
         "../sass/_Page.scss",
-        "../sass/_Navigation.scss"
+        "../sass/_Navigation.scss",
+        "../sass/_Header.scss",
+        "../sass/_About.scss",
+        "../sass/_Skill.scss",
+        "../sass/_Project.scss",
+        "../sass/_Contact.scss"
     ],
     "names": [],
     "file": "Main.css"
