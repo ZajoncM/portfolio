@@ -1,3 +1,37 @@
 .header {
-  height: 100vh;
+  flex-basis: 100vh;
+  background-image: linear-gradient(#b3e5fc, $blue-color, $blue-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    line-height: 0.7;
+  }
+  &__greeting {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 0.6;
+    @media (min-width: 768px) {
+      font-size: 9rem;
+    }
+  }
+  &__name {
+    text-align: right;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 0.8;
+    @media (min-width: 768px) {
+      font-size: 5rem;
+    }
+  }
+  &__proffesion {
+    text-align: left;
+    font-size: 4rem;
+    line-height: 0.8;
+    @media (min-width: 768px) {
+      font-size: 5rem;
+    }
+  }
 }

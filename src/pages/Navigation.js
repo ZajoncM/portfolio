@@ -19,19 +19,19 @@ class Navigation extends React.Component {
     };
     this.onClick = this.onClick.bind(this);
   }
-
   onClick() {
     this.setState({
       collapse: !this.state.collapse
     });
   }
+  handleScroll(e) {}
 
   render() {
     return (
       <header>
         <Router>
           <MDBNavbar
-            color="unique-color-dark"
+            color="light-green lighten-2"
             fixed="top"
             dark
             expand="md"
@@ -39,15 +39,17 @@ class Navigation extends React.Component {
             transparent
           >
             <MDBNavbarBrand href="/">
-              <strong>Home</strong>
+              <strong>Portfolio</strong>
             </MDBNavbarBrand>
             {!this.state.isWideEnough && (
               <MDBNavbarToggler onClick={this.onClick} />
             )}
             <MDBCollapse isOpen={this.state.collapse} navbar>
               <MDBNavbarNav left>
-                <MDBNavItem active>
-                  <MDBNavLink to="#">Home</MDBNavLink>
+                <MDBNavItem>
+                  <MDBNavLink to="#" onClick={() => this.handleScroll(0)}>
+                    Home
+                  </MDBNavLink>
                 </MDBNavItem>
                 <MDBNavItem>
                   <MDBNavLink to="#">About</MDBNavLink>

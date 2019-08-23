@@ -1,12 +1,22 @@
 import React from "react";
-import { MDBAnimation } from "mdbreact";
+import { MDBAnimation, MDBContainer } from "mdbreact";
 const Header = () => {
   return (
-    <div>
-      <MDBAnimation type="bounce" infinite>
-        <h1>Hi</h1>
+    <MDBContainer className="header__title">
+      {/* <MDBAnimation type="bounce" infinite>
+        <h1>Hello</h1>
+      </MDBAnimation> */}
+      <MDBAnimation type="fadeInLeft">
+        <h1 className="header__greeting">Hello,</h1>
       </MDBAnimation>
-    </div>
+      <MDBAnimation type="fadeInRight" delay="1s">
+        <h2 className="header__name">My name is Miłosz Zajonc</h2>
+      </MDBAnimation>
+
+      <MDBAnimation type="fadeIn" delay="2s">
+        <h2 className="header__proffesion">I'm Front-End Developer</h2>
+      </MDBAnimation>
+    </MDBContainer>
   );
 };
 
