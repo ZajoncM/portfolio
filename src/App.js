@@ -1,12 +1,18 @@
 import React, { Component } from "react";
-import { MDBBtn } from "mdbreact";
+import Navigation from "./pages/Navigation";
+import Page from "./pages/Page";
+import "./sass/Main.scss";
 class App extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <MDBBtn color="primary">Primary</MDBBtn>
-        <MDBBtn color="secondary">Secondary</MDBBtn>
+      <div className="App">
+        <nav className="Navigation">
+          <Navigation />
+        </nav>
+        <main className="main">
+          <Page />
+        </main>
       </div>
     );
   }
