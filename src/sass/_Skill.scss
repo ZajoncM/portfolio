@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: space-around;
   padding: 0 5vw;
+  @media (min-width: 768px) {
+  }
   &__html {
     display: flex;
     justify-content: space-around;
@@ -35,6 +37,25 @@
   }
 
   & .fab {
-    font-size: 5rem;
+    font-size: 2rem;
+    @media (min-width: 768px) {
+      font-size: 5rem;
+    }
+
+    &.fa-html5 {
+      color: #e34f26;
+    }
+    &.fa-sass {
+      color: #cd6799;
+    }
+    &.fa-js-square {
+      color: #f0db4f;
+    }
+    &.fa-react {
+      color: #61dafb;
+    }
+    &.fa-node-js {
+      color: #8cc84b;
+    }
   }
 }

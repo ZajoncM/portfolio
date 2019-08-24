@@ -5,10 +5,16 @@ const About = () => {
     <>
       <div className="about__home">
         <i class="fas fa-home" />
-        <span className="about__home-text">Home</span>
+        <span className="about__home-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          expedita nihil voluptatem sequi eaque,
+        </span>
       </div>
       <div className="about__school">
-        <span className="about__school-text">School</span>
+        <span className="about__school-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          expedita nihil voluptatem sequi eaque,
+        </span>
         <i class="fas fa-school" />
       </div>
       <img
@@ -20,10 +26,16 @@ const About = () => {
 
       <div className="about__code">
         <i class="fas fa-code " />
-        <span className="about__code-text">Coding</span>
+        <span className="about__code-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          expedita nihil voluptatem sequi eaque,
+        </span>
       </div>
       <div className="about__guitar">
-        <span className="about__guitar-text">Guitar</span>
+        <span className="about__guitar-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          expedita nihil voluptatem sequi eaque,
+        </span>
         <i class="fas fa-guitar " />
       </div>
     </>

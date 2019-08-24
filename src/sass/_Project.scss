@@ -1,3 +1,49 @@
 .project {
   flex-basis: 100vh;
+
+  &__github {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    &-text {
+      font-size: 2rem;
+      color: white;
+    }
+  }
+  &__coming-soon {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    &-text {
+      font-size: 2rem;
+      color: white;
+    }
+  }
+
+  & .fab {
+    font-size: 10rem;
+    color: white;
+  }
+}
+
+.container-fluid {
+  padding: 0 !important;
+  height: 100%;
+}
+
+.carousel {
+  height: 100%;
+}
+.carousel-item {
+  height: 100%;
+}
+.view {
+  height: 100%;
 }
