@@ -6,13 +6,14 @@ const About = () => {
       <div className="about__home">
         <i className="fas fa-home" />
         <span className="about__home-text">
-          I'm 20 years old and I'm from Poland. I graduated from IT school
+          I come from Poland and I'm 20 years old.. I am interested in web
+          development.
         </span>
       </div>
       <div className="about__school">
         <span className="about__school-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          expedita nihil voluptatem sequi eaque,
+          I have graduated from IT technical college and i am about to start IT
+          University in Łódź.
         </span>
         <i className="fas fa-school" />
       </div>
@@ -21,19 +22,18 @@ const About = () => {
         alt=""
         className="img-fluid z-depth-1 rounded-circle about__image "
       />
-      <h1 className="about__title">Who I am?</h1>
+      <h1 className="about__title">Who am I?</h1>
 
       <div className="about__code">
         <i className="fas fa-code " />
         <span className="about__code-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          expedita nihil voluptatem sequi eaque,
+          Web development as my passion started when i was 16. I usually design
+          web apps in React.js.
         </span>
       </div>
       <div className="about__guitar">
         <span className="about__guitar-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          expedita nihil voluptatem sequi eaque,
+          I like to spend my free time playing guitar and listening to music.
         </span>
         <i className="fas fa-guitar " />
       </div>
