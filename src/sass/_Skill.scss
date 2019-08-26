@@ -10,26 +10,35 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    animation: opacity 1s both;
   }
   &__css-sass {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    animation: opacity 1s 0.25s both;
   }
   &__javascript {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    animation: opacity 1s 0.5s both;
   }
   &__react {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    animation: opacity 1s 0.75s both;
   }
   &__nodeJS {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    animation: opacity 1s 1s both;
   }
 
   & .my-2 {
@@ -58,4 +67,8 @@
       color: #8cc84b;
     }
   }
+}
+
+.progress-bar {
+  animation: slideBar 1s 1.5s both;
 }

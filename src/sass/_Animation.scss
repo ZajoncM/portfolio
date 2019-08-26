@@ -23,3 +23,14 @@
     opacity: 0;
   }
 }
+@keyframes slideBar {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes wallHeight {
+  from {
+    height: 0;
+  }
+}
