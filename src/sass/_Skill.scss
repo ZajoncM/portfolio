@@ -43,7 +43,14 @@
 
     animation: opacity 1s 1s both;
   }
-
+  &__progress {
+    flex-basis: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    & span {
+      color: white;
+    }
+  }
   & .my-2 {
     flex-basis: 80%;
   }
@@ -74,4 +81,7 @@
 
 .progress-bar {
   animation: slideBar 1s 1.5s both;
+}
+.my-2 {
+  flex-basis: 100% !important;
 }
