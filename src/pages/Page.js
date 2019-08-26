@@ -4,23 +4,24 @@ import About from "./About";
 import Skill from "./Skill";
 import Project from "./Project";
 import Contact from "./Contact";
-const Page = () => {
+const Page = props => {
+  const { about, skill, contact } = props.pages;
   return (
     <div className="page">
       <header className="header" id="home">
         <Header />
       </header>
       <section className="about" id="about">
-        <About />
+        {about && <About />}
       </section>
       <section className="skill" id="skill">
-        <Skill />
+        {skill && <Skill />}
       </section>
       <section className="project" id="project">
         <Project />
       </section>
       <section className="contact" id="contact">
-        <Contact />
+        {contact && <Contact />}
       </section>
     </div>
   );
