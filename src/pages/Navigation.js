@@ -42,7 +42,7 @@ class Navigation extends React.Component {
             scrolling
             transparent
           >
-            <MDBNavbarBrand href="/">
+            <MDBNavbarBrand>
               <strong>Portfolio</strong>
             </MDBNavbarBrand>
             {!this.state.isWideEnough && (
