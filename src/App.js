@@ -14,6 +14,7 @@ class App extends Component {
     const aboutHeight = document.getElementById("about").offsetTop;
     const skillHeight = document.getElementById("skill").offsetTop;
     const contactHeight = document.getElementById("contact").offsetTop;
+
     if (currentHeight > aboutHeight - window.innerHeight / 2) {
       this.setState({
         about: true

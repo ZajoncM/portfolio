@@ -1,11 +1,21 @@
 .header {
   flex-basis: 100vh;
-  background-image: linear-gradient($darkViolet, $lightViolet);
+  background-image: linear-gradient(
+    -45deg,
+    $darkViolet,
+    $darkBlue,
+    $lightGreen,
+    $lightGreen
+  );
   display: flex;
   align-items: center;
   justify-content: center;
-
+  animation: gradientBG 10s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
   &__title {
+    position: fixed;
+    z-index: 0;
     line-height: 0.7;
   }
   &__greeting {

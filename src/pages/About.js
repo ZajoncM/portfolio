@@ -6,8 +6,7 @@ const About = () => {
       <div className="about__home">
         <i className="fas fa-home" />
         <span className="about__home-text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          expedita nihil voluptatem sequi eaque,
+          I'm 20 years old and I'm from Poland. I graduated from IT school
         </span>
       </div>
       <div className="about__school">
