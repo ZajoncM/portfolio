@@ -1,6 +1,6 @@
 .header {
   flex-basis: 100vh;
-  background-image: linear-gradient(#b3e5fc, $blue-color, $blue-color);
+  background-image: linear-gradient($darkViolet, $lightViolet);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,6 +13,7 @@
     font-size: 5rem;
     font-weight: bold;
     line-height: 0.6;
+    color: lightgray;
     @media (min-width: 768px) {
       font-size: 9rem;
     }
@@ -22,6 +23,7 @@
     font-size: 4rem;
     font-weight: bold;
     line-height: 0.8;
+    color: white;
     @media (min-width: 768px) {
       font-size: 5rem;
     }
@@ -30,6 +32,8 @@
     text-align: left;
     font-size: 4rem;
     line-height: 0.8;
+    font-weight: bold;
+    color: $violet;
     @media (min-width: 768px) {
       font-size: 5rem;
     }

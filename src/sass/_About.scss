@@ -1,6 +1,6 @@
 .about {
   flex-basis: 100vh;
-  background-color: #e3f2fd;
+  background-image: linear-gradient($darkBlue, $lightBlue);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -25,6 +25,7 @@
     display: none;
     text-align: center;
     animation: opacity 1s 0.75s both;
+    color: $blue;
     @media (min-width: 768px) {
       display: block;
       grid-column: 2 / span 1;
@@ -34,8 +35,10 @@
   &__home {
     display: flex;
     padding-left: 20px;
+    color: $blue;
     justify-content: space-around;
     align-items: center;
+
     animation: slideRight 1s;
     @media (min-width: 768px) {
       grid-column: 1 / span 1;
@@ -45,6 +48,7 @@
     &-text {
       max-width: 80%;
       padding-left: 20px;
+      color: white;
     }
   }
   &__school {
@@ -52,6 +56,7 @@
     padding-right: 20px;
     justify-content: space-around;
     align-items: center;
+    color: $blue;
     animation: slideLeft 1s 0.5s both;
     @media (min-width: 768px) {
       grid-column: 3 / span 1;
@@ -60,6 +65,7 @@
     &-text {
       max-width: 80%;
       padding-right: 20px;
+      color: white;
     }
   }
   &__code {
@@ -67,6 +73,7 @@
     padding-left: 20px;
     justify-content: space-around;
     align-items: center;
+    color: $blue;
     animation: slideRight 1s 1s both;
     @media (min-width: 768px) {
       grid-column: 1 / span 1;
@@ -75,6 +82,7 @@
     &-text {
       max-width: 80%;
       padding-left: 20px;
+      color: white;
     }
   }
   &__guitar {
@@ -82,6 +90,7 @@
     padding-right: 20px;
     justify-content: space-around;
     align-items: center;
+    color: $blue;
     animation: slideLeft 1s 1.5s both;
     @media (min-width: 768px) {
       grid-column: 3 / span 1;
@@ -90,6 +99,7 @@
     &-text {
       max-width: 80%;
       padding-right: 20px;
+      color: white;
     }
   }
 

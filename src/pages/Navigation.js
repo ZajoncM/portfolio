@@ -35,7 +35,7 @@ class Navigation extends React.Component {
       <header>
         <Router>
           <MDBNavbar
-            color="light-green lighten-2"
+            color="black"
             fixed="top"
             dark
             expand="md"

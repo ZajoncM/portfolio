@@ -1,6 +1,7 @@
 .skill {
   flex-basis: 100vh;
   display: flex;
+  background-image: linear-gradient($darkGreen, $lightGreen);
   flex-direction: column;
   justify-content: space-around;
   padding: 0 5vw;

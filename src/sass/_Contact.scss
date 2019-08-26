@@ -1,7 +1,7 @@
 .contact {
   flex-basis: 50vh;
   display: flex;
-  background-color: $blue-color;
+  background-image: linear-gradient($darkViolet, $lightViolet);
   align-items: stretch;
   overflow: hidden;
 }
@@ -27,7 +27,7 @@
 .wall {
   align-self: center;
   height: 40vh;
-  border: 1px solid black;
+  border: 1px solid $violet;
   animation: wallHeight 0.5s 1s both;
 }
 
@@ -40,6 +40,10 @@
   animation: slideLeft 1s 0.5s both;
   & a {
     color: black;
+
+    &:hover {
+      color: $violet;
+    }
   }
   & .fab {
     font-size: 3rem;

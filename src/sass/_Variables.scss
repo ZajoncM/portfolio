@@ -1,5 +1,18 @@
-$green-color: #8e8741;
-$brown-color: #bd986b;
-$lightBrown-color: #daad86;
-$cream-color: #fbeec1;
-$blue-color: #659ebc;
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=latin-ext");
+// Colors
+$lightBlue: #263959;
+$darkBlue: #1b2e4c;
+$blue: #006fff;
+$violet: #aa134d;
+$darkViolet: #3a2230;
+$lightViolet: #462b3c;
+$gray: #bbb;
+$darkGreen: #0a4a3a;
+$green: #89c76f;
+$lightGreen: #135645;
+
+// Fonts
+
+$default_font: "arial", "sans-serif";
+$special_font: "Montserrat", sans-serif;
