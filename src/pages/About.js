@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <div className="about__home">
-        <i class="fas fa-home" />
+        <i className="fas fa-home" />
         <span className="about__home-text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
           expedita nihil voluptatem sequi eaque,
@@ -15,7 +15,7 @@ const About = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
           expedita nihil voluptatem sequi eaque,
         </span>
-        <i class="fas fa-school" />
+        <i className="fas fa-school" />
       </div>
       <img
         src={myPhoto}
@@ -25,7 +25,7 @@ const About = () => {
       <h1 className="about__title">Who I am?</h1>
 
       <div className="about__code">
-        <i class="fas fa-code " />
+        <i className="fas fa-code " />
         <span className="about__code-text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
           expedita nihil voluptatem sequi eaque,
@@ -36,7 +36,7 @@ const About = () => {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
           expedita nihil voluptatem sequi eaque,
         </span>
-        <i class="fas fa-guitar " />
+        <i className="fas fa-guitar " />
       </div>
     </>
   );

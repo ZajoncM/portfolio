@@ -23,7 +23,7 @@ const Project = () => {
           <MDBCarouselItem itemId="1">
             <MDBView>
               <div className="project__github">
-                <i class="fab fa-github" />
+                <i className="fab fa-github" />
                 <span className="project__github-text">Portfolio project</span>
               </div>
               <MDBMask overlay="black-light" />
