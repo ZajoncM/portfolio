@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e4d6d44f3dd432636f5bf38192f0c4d",
+    "revision": "92d0dd354650ce869f155b19b0caa1cd",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.e8bd79a4.chunk.css"
   },
   {
-    "revision": "6fa182fcd6609e64ec94",
-    "url": "/portfolio/static/css/main.328fdbbc.chunk.css"
+    "revision": "1669b637732839969242",
+    "url": "/portfolio/static/css/main.396a9b8f.chunk.css"
   },
   {
     "revision": "343ceaa80f50248bb3e3",
     "url": "/portfolio/static/js/2.af8afb4d.chunk.js"
   },
   {
-    "revision": "6fa182fcd6609e64ec94",
-    "url": "/portfolio/static/js/main.1b116ce6.chunk.js"
+    "revision": "1669b637732839969242",
+    "url": "/portfolio/static/js/main.688f66d7.chunk.js"
   },
   {
     "revision": "2240965c8faebc00ec59",
@@ -112,6 +112,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/arrow_right.8ef6a08c.svg"
   },
   {
+    "revision": "f663559d4d2313c13c55cce50ba00f37",
+    "url": "/portfolio/static/media/charcounter-desktop.f663559d.PNG"
+  },
+  {
+    "revision": "9178627eba00e93840a2e9464b4421c1",
+    "url": "/portfolio/static/media/charcounter-mobile.9178627e.PNG"
+  },
+  {
     "revision": "3165b14bbf3b64fca65829ecde6b800d",
     "url": "/portfolio/static/media/fa-brands-400.3165b14b.eot"
   },
@@ -174,5 +182,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62c89934f776d900a6bca8427ddff5f7",
     "url": "/portfolio/static/media/my-photo.62c89934.jpg"
+  },
+  {
+    "revision": "eda6161adc4df7a519812e438ffc2cd3",
+    "url": "/portfolio/static/media/todolist-desktop.eda6161a.PNG"
+  },
+  {
+    "revision": "f277b91230d0606cc045864171a0f088",
+    "url": "/portfolio/static/media/todolist-mobile.f277b912.PNG"
   }
 ]);
